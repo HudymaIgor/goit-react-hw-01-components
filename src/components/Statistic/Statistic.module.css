@@ -1,0 +1,27 @@
+
+.statistic{
+   display: block;
+   margin: 50px auto;
+   text-align: center;
+   max-width: 600px;
+   border-radius: 20px;
+   background-color: rgba(237, 237, 229, 0.4);
+   box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
+   font-size: 25px;
+   font-weight: 100;
+   overflow:hidden
+}
+.statList{
+   display: flex;
+   list-style: none;
+   justify-content: space-around;
+}
+.title{
+   padding: 5px;
+}
+.item{
+   width: 100%;
+   border: solid #5B6DCD 1px;
+   background-color: rgba(25, 140, 235, 0.4);
+   padding: 5px;
+}
